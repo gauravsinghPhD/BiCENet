@@ -32,7 +32,7 @@ The model uses **997,749 parameters** and **282.71 GFLOPs** at 400x600.
 ## Installation
 
 ```bash
-git clone https://github.com/gauravksingh1080-prog/BiCENet.git
+git clone https://github.com/gauravsinghPhD/BiCENet.git
 cd BiCENet
 pip install -r requirements.txt
 ```
