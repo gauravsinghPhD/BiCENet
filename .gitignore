@@ -1,0 +1,52 @@
+# Checkpoints (model.pth is released deliberately and force-added)
+*.pth
+!model.pth
+*.pkl
+*.pt
+*.ckpt
+checkpoints/
+Learning/
+
+# Datasets and outputs
+Datasets/
+data/
+Outputs/
+outputs/
+results/
+*_results/
+zoom_outputs/
+ablation_images/
+
+# Images and video
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.mp4
+!docs/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+runs/
+wandb/
+
+# Local scratch
+Note.txt
